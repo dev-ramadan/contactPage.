@@ -10,17 +10,17 @@ function App() {
   return (
     <div className="h-100">
       <NavBar />
-      <div className="flex justify-between container mx-auto">
+      <div className="pirant container mx-auto grid sm:grid-cols-12 sm:flex sm:flex-col-reverse md:grid-cols-2 lg:flex-row lg:justify-between">
         <div className="left">
           <div className="mt-10 flex">
-            <div>
+            <div className="sm:mx-auto">
               <Button icon={<MdMessage fontSize={25} />}>
-                VIA SUPPORT CHAT
+                <span className="text">VIA SUPPORT CHAT</span>
               </Button>
             </div>
-            <div>
+            <div className="sm:mx-auto">
               <Button icon={<FaPhoneAlt fontSize="24px" />}>
-                VIA EMAIL FORM"
+                <span className="text">VIA EMAIL FORM</span>
               </Button>
             </div>
           </div>

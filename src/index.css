@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+@media (width <= 40rem){
+    .pirant{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .text{
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+    }
+}
